@@ -13,6 +13,8 @@
     line-height: 1.19;
     font-weight: 700;
     text-decoration:none;
+    margin-right: 93px;
+    padding-left: 15px;
     }
 .web{
     color: #2196F3;
@@ -38,8 +40,16 @@
     font-size: 14px;
     line-height: 1.33;
     letter-spacing: 0.02em;
+    display: flex;
+    margin-right: 50px;
 }
 .style-link:hover{
+    color: #2196F3;
+}
+.style-link:focus{
+    color: #2196F3;
+}
+.style-link-c{
     color: #2196F3;
 }
 .list{
@@ -57,6 +67,18 @@
     letter-spacing: 0.02em;
     text-decoration:none;
     color:#757575;
+    display:flex;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.style-kontakts-t{
+    display: block;
+    margin-left: 50px;
+}
+.style-kontakts-e{
+    display: block;
+    margin-left: 331px;
 }
 .style-kontakts:hover{
     color: #2196f3;
@@ -70,6 +92,9 @@
     background-color: rgba(47, 48, 58, 1);
     width: 1600px;
     height: 600px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
 }
 .text-zakaz{
     color:#FFFFFF;
@@ -95,7 +120,6 @@
     line-height: 1.87;
     letter-spacing: 0.06em;
     padding: 10px 32px;
-    display: flex;
 }
 
         /* Особености */
@@ -123,6 +147,7 @@
     margin-bottom: 94px;
 }
         /* Чем мы занимаемся */
+
 .style-zanatya{
     color: #212121;
     font-family: 'Roboto';
@@ -131,16 +156,29 @@
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    text-align: center;
     padding-bottom: 50px;
-    padding-top: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
+    text-align: center;
+    width: 1200px;
 }
         /*  Наша команда*/
+.back-col{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin-bottom: 94px;
+    margin-right: 30px;
+}
 .style-team{
     background-color:#F5F4FA;
     width: 1600px;
+    text-align: center;
+}
+.style-comand{
+    display: inline-flex;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    justify-content: center;
+    text-align: center;
 }
 .style-team-text{
     color: #212121;
@@ -153,6 +191,7 @@
     margin-top: 94px;
     margin-bottom: 0px;
     padding-bottom: 50px;
+    text-align: center;
 }
 .style-people{
     color: #212121;
@@ -178,14 +217,15 @@
     margin-bottom: 124px;
 }
         /* footer */
-.logo-footer{
+.footer-logo{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     font-weight: 700;
-    text-decoration:none;   
+    text-decoration:none;
+    margin-left: 200px;
 }
 .web-footer{
     color: #2196F3;
@@ -207,7 +247,6 @@
     background-color: rgba(47, 48, 58, 1);
     width: 1600px;
     height: 252px;
-
 }
 .footer-adress{
     color: #FFFFFF;
@@ -236,6 +275,11 @@
 }
 .style-link-col{
     color: #2196f3;
+    display: block;
+    margin-right: 50px;
+}
+.style-link-col:last-child {
+    margin: 0px;
 }
 .button-style-portf{
     font-family: 'Roboto';
@@ -260,6 +304,9 @@
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    padding: 0px;
 }
 .style-text-detail-info{
     font-family: Roboto;
@@ -269,27 +316,44 @@
     line-height: 1.87;
     letter-spacing: 0.03em;  
     color: #757575;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding: 0px;
 }
 .container-nav{
     width: 1200px;
     margin-top: 24px;
     margin-bottom: 25px;
-    
+    margin-left: 200px;
+    margin-right: 400px;
+    display: flex;
+    align-items: center;
 }
 .container{
+    width: 1200;
     margin-top: 0px;
     margin-bottom: 0px;
-    width: 1200;
+    
 }
 .foto-komand{
     padding-bottom: 30px;
 }
 .conteiner-style{
     width: 1200px;
+    display: flex;
+    margin-left: 200px;
+    margin-right: 400px;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.conteiner-style-t{
+    margin-right: 30px;
 }
 .adres-footer{
     margin-bottom: 60px;
     padding-top: 20px;
+    padding-left: 15px;
+    margin-left: 200px;
 }
 .footer-adress{
 padding-bottom: 9px;
@@ -300,4 +364,40 @@ padding-top: 60px;
 }
 .footer-kontakt{
     padding-bottom: 9px;
+}
+.btn-por{
+    display:flex;
+}
+.button-portfo-1{
+    margin-top: 94px;
+    margin-bottom: 34px;
+    margin-right: 8px;
+    margin-left: 495px;
+}
+.button-portfo-2{
+    margin-top: 94px;
+    margin-bottom: 34px;
+    margin-right: 8px;
+}
+.button-portfo-3{
+    margin-top: 94px;
+    margin-bottom: 34px;
+    margin-right: 8px;
+}
+.button-portfo-4{
+    margin-top: 94px;
+    margin-bottom: 34px;
+    margin-right: 8px;
+}
+.button-portfo-5{
+    margin-top: 94px;
+    margin-bottom: 34px;
+    margin-right: 470x;
+}
+.foto-porto-style{
+    margin-top: 34px;
+    margin-bottom: 30px;
+}
+.foto-text-style{
+    margin-bottom: 20px;
 }
